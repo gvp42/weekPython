@@ -1,0 +1,97 @@
+print "Hai" + "how are" + "YOU.\n"
+Haihow areYOU.
+
+marks = 20
+print "Marks: " + marks + "\n"
+print "Failed.\n"
+
+
+You are great.
+But you needfocus.
+
+print "You are great.\nBut you needfocus.\n"
+
+msg = "I did not write exam."
+marks = 10
+print msg + "->" + marks + ".\n" + msg + ".\n"
+
+I did not write exam.->10.
+I did not write exam..
+
+num1 = 5
+sq = num1 X num1
+print "The square of "
+print num1
+print " is "
+print sq
+print ".\n"
+
+
+print "To find sum of two numbers.\n"
+print "Enter the first number: "
+read num1
+print "Enter the second number: "
+read num2
+sum = num1 + num2
+print "Sum of " + num1 + " and " + num2 + " is " + sum + ".\n"
+print("Sum of ", num1, " and ", num2, " is ", sum, ".\n", sep="", end="")
+
+print "Hai"
+print "Hello"
+
+Hai
+Hello
+
+Hai Hello
+
+HaiHello
+
+
+
+print("To find sum of two numbers.\n", end="")
+print("Enter the first number: ", end="")
+num1 = input()
+print("Enter the second number: ", end="")
+num2 = input()
+sum = num1 + num2
+print("Sum of ", num1, " and ", num2, " is ",
+      sum, ".\n", sep="", end="")
+
+
+
+step#5: if (num1 > 10)
+          print "Larger than 10.\n"
+          goto step#8
+
+Pass or fail.
+Enter your marks: 75
+You have failed the exam.
+
+
+Pass or fail.
+Enter your marks: 85
+You have passed the exam.
+
+step#1: start
+step#2: print "Pass or fail.\n"
+step#3: print "Enter your marks: "
+step#4: read marks
+step#5: if (marks >= 80)
+          print "You have passed the exam.\n"
+          goto step#7
+step#6: print "You have failed the exam.\n"
+step#7: stop
+
+step#1: start
+step#2: print "How many natural numbers you want? "
+step#3: read count
+step#4: counter = 1
+step#5: print "The natural numbers upto " + count + " are "
+step#6: if (counter < count)
+          print counter + ", "
+          counter = counter + 1
+          goto step#6
+step#7: print counter + ".\n"
+step#8: stop
+
+
